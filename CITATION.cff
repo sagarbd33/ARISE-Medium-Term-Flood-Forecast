@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the associated publication and this software repository."
+title: "ARISE - Medium Term Flood Forecast Sub-System"
+version: "2.1.0"
+doi: 10.5281/zenodo.20346162
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20346162
+    description: "Version-specific DOI for v2.1.0"
+  - type: doi
+    value: 10.5281/zenodo.20346161
+    description: "Concept DOI (always points to the latest version)"
+date-released: 2026-05-22
+abstract: >
+  ARISE (Automated River Intelligence System for Early-Warning) is an automated hybrid
+  flood forecasting and early-warning system operationally deployed in the Tlawng River
+  Basin, Mizoram, Northeast India. This repository contains the Medium-Term sub-system:
+  XGBoost-based bias correction of ECMWF ensemble forecasts feeds a hybrid
+  HEC-HMS – GRU – XGBoost model chain to forecast river stage at 3-, 5-, and 7-day
+  lead times, classified into a unified five-tier danger level scheme.
+type: software
+url: "https://github.com/sagarbd33/ARISE-Medium-Term-Flood-Forecast"
+repository-code: "https://github.com/sagarbd33/ARISE-Medium-Term-Flood-Forecast"
+authors:
+  - family-names: Debbarma
+    given-names: Sagar
+    email: sagarbd33@gmail.com
+    affiliation: "Department of Agricultural Engineering, NERIST, Arunachal Pradesh, India"
+  - family-names: Mandal
+    given-names: Sameer
+    email: smandal52@gmail.com
+    affiliation: "Department of Agricultural Engineering, NERIST, Arunachal Pradesh, India"
+  - family-names: Bandyopadhyay
+    given-names: Arnab
+    email: arnabbandyo@yahoo.co.in
+    affiliation: "Department of Agricultural Engineering, NERIST, Arunachal Pradesh, India"
+  - family-names: Bhadra
+    given-names: Aditi
+    email: aditibhadra@yahoo.co.in
+    affiliation: "Department of Agricultural Engineering, NERIST, Arunachal Pradesh, India"
+license: MIT
+keywords:
+  - flood forecasting
+  - early warning system
+  - LSTM
+  - GRU
+  - XGBoost
+  - HEC-HMS
+  - ECMWF
+  - bias correction
+  - hybrid model
+  - Northeast India
+  - data-scarce basin
+  - Tlawng River
+  - Mizoram
+  - National Hydrology Project
+preferred-citation:
+  type: article
+  title: "ARISE: A Novel Automated Hybrid System for Multi-Timescale Flood Forecasting and Operational Early Warning in Northeast India"
+  authors:
+    - family-names: Debbarma
+      given-names: Sagar
+    - family-names: Mandal
+      given-names: Sameer
+    - family-names: Bandyopadhyay
+      given-names: Arnab
+    - family-names: Bhadra
+      given-names: Aditi
+  journal: "Journal of Hydrology"
+  year: 2026
+  notes: "Manuscript currently under review. Volume, issue, pages, and DOI will be added upon acceptance."
