@@ -159,7 +159,7 @@ ARISE-Medium-Term-Flood-Forecast/
 
 ### 5.1 End-user installation (Windows, operational deployment)
 
-1. Download **`ARISE - Medium Term Flood Forecast Installer.exe`** (≈ 2 GB) from the Zenodo archive: **https://doi.org/10.5281/zenodo.20346162** (v2.1.0) or **https://doi.org/10.5281/zenodo.20346161** (always latest version).
+1. Download **`ARISE - Medium Term Flood Forecast Installer.exe`** (≈ 2 GB) from the Zenodo archive: **https://doi.org/10.5281/zenodo.20346162** (v2.1.0).
 2. Right-click → **Run as administrator**.
 3. The installer auto-deploys Microsoft VC++ Redistributable (x64), the PyInstaller-bundled executable, HEC-HMS project files, pre-trained models, and a desktop shortcut.
 4. Installation directory is fixed at **`C:\Users\Medium Term Flood Forecast\`** (paths are hard-coded inside scripts; this constraint will be removed in v3.0).
