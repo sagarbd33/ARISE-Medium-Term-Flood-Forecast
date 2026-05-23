@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the associated publication and this software repository."
 title: "ARISE - Medium Term Flood Forecast Sub-System"
-version: "2.1.0"
-doi: 10.5281/zenodo.20346162
+version: "2.1.1"
+doi: 10.5281/zenodo.20356274
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.20346162
-    description: "Version-specific DOI for v2.1.0"
+    value: 10.5281/zenodo.20356274
+    description: "Version-specific DOI for v2.1.1"
   - type: doi
-    value: 10.5281/zenodo.20346161
+    value: 10.5281/zenodo.20356274
     description: "Concept DOI (always points to the latest version)"
-date-released: 2026-05-22
+date-released: 2026-05-23
 abstract: >
   ARISE (Automated River Intelligence System for Early-Warning) is an automated hybrid
   flood forecasting and early-warning system operationally deployed in the Tlawng River
