@@ -51,7 +51,7 @@ The pre-built **`ARISE - Medium Term Flood Forecast Installer.exe`** (≈ 2 GB) 
    Scheduler started. Waiting for 08:30:00 daily...
    [yyyy-mm-dd HH:MM:SS] Waiting...
    ```
-5. **First-run credential prompt** (only after 08:30 IST fires for the first time):
+5. **First-run credential prompt (only after the first 08:30 IST run) asks for URL / Key / Email; values are saved to C:\Users\Medium Term Flood Forecast\.ecmwfapirc and auto-loaded silently on every subsequent run:
    ```
    === Enter ECMWF API credentials ===
    URL (press Enter for default https://api.ecmwf.int/v1):
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 Either:
 
-- **Interactive** — let the script prompt you on each run (default behaviour); or
+- **Interactive once — let the script prompt you on first run; credentials are saved to C:\Users\Medium Term Flood Forecast\.ecmwfapirc and reused automatically thereafter; or
 - **Persistent** — create `%USERPROFILE%\.ecmwfapirc` (Windows) or `~/.ecmwfapirc` (Linux/macOS):
   ```json
   {
