@@ -41,7 +41,7 @@ The modules are listed in execution order (as orchestrated by `Daily_Forecast_Ru
 - Reads `tp_Step_1day.csv` to determine the last bias-corrected date in storage; this becomes the `start_date` for the new request.
 - `end_date = today − 2 days` (TIGGE has ~36 h release latency).
 - Deletes any existing `output_Ensemble_7Days_Lead(ECMWF)_AutoDate.grib` and accompanying `.idx` index file before requesting new data.
-- **Persistent credential storage — URL/Key/Email loaded from C:\Users\Medium Term Flood Forecast\.ecmwfapirc; prompted only on first run (or if file invalid), then saved as JSON for silent auto-load on subsequent runs.
+- **Persistent credentials** — on first run, prompts for ECMWF URL/Key/Email and saves them as JSON to `C:\Users\Medium Term Flood Forecast\.ecmwfapirc`. Every subsequent run loads them silently from that file, enabling fully unattended daily execution at 08:30 IST. The key is visible on screen only during first-run entry (plain `input()` is used for Spyder/exe compatibility — hidden-input via `getpass` blocks paste in Qt-based consoles and packaged executables). To rotate the key, either delete the file (re-prompted on next run) or edit it directly in Notepad. The file is also listed in `.gitignore` so it is never committed.
 - Submits a TIGGE retrieval request with:
   - `dataset = "tigge"`, `origin = "ecmf"`, `type = "pf"` (perturbed forecast)
   - 50 ensemble members (`number = 1..50`)
