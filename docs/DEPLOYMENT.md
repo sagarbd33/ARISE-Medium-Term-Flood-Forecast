@@ -102,7 +102,7 @@ The Inno Setup script `installer/ARISE_Medium_Term_Flood_Forecast.iss` wraps eve
 ```ini
 [Setup]
 AppName              = ARISE - Medium Term Flood Forecast
-AppVersion           = 2.1.0
+AppVersion           = 2.1.1
 AppPublisher         = AE, NERIST
 DefaultDirName       = C:\Users\Medium Term Flood Forecast
 DefaultGroupName     = ARISE - Medium Term Flood Forecast
@@ -174,7 +174,7 @@ ARISE - Medium Term Flood Forecast Installer.exe   (≈ 2 GB — bundles HEC-HMS
 
 ## 4. Version Bumping
 
-To release a new version (e.g. v2.1.0 → v2.2.0):
+To release a new version (e.g. v2.1.1 → v2.2.0):
 
 1. Edit `installer/ARISE_Medium_Term_Flood_Forecast.iss`:
    ```ini
