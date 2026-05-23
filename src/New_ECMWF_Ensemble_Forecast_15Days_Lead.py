@@ -11,7 +11,6 @@ import pandas as pd
 from datetime import datetime, timedelta
 import os
 import json
-import getpass
 
 # ECMWF credentials file inside the ARISE install folder
 ECMWF_RC_PATH = r"C:\Users\Medium Term Flood Forecast\.ecmwfapirc"
@@ -43,8 +42,9 @@ def load_or_prompt_credentials():
     if not url:
         url = "https://api.ecmwf.int/v1"
 
-    # Hide key while typing (input is not echoed to screen)
-    key = getpass.getpass("Key (input hidden): ").strip()
+    # Plain input() works in Spyder, PyInstaller exe, and standard terminals.
+    # (getpass.getpass blocks in Spyder/QtConsole and some packaged-exe environments.)
+    key = input("Key: ").strip()
     email = input("Email: ").strip()
 
     if not key or not email:
