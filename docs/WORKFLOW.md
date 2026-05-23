@@ -29,7 +29,7 @@ The 08:30 IST trigger is intentional. ECMWF TIGGE products from the 00:00 UTC ba
 Step 1 ▸ New_ECMWF_Ensemble_Forecast_15Days_Lead.py
          - Reads tp_Step_1day.csv to get last bias-corrected date.
          - Computes end_date = today - 2 days.
-         - Prompts user for ECMWF URL/Key/Email.
+         - Loads ECMWF URL/Key/Email from C:\Users\Medium Term Flood Forecast\.ecmwfapirc; prompts only on first run (or if file missing/invalid), then saves for silent reuse.
          - Deletes old GRIB + .idx file.
          - Submits TIGGE retrieval (50 perturbed members, 7 steps × 4 vars).
          - Writes: ECMWF_Ensemble/output_Ensemble_7Days_Lead(ECMWF)_AutoDate.grib
