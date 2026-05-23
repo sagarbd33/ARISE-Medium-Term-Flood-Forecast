@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software, please cite both the associated publication and this software repository."
 title: "ARISE - Medium Term Flood Forecast Sub-System"
 version: "2.1.1"
-doi: 10.5281/zenodo.20356274
+doi: 10.5281/zenodo.20357890
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.20356274
+    value: 10.5281/zenodo.20357890
     description: "Version-specific DOI for v2.1.1"
   - type: doi
-    value: 10.5281/zenodo.20356274
+    value: 10.5281/zenodo.20357890
     description: "Concept DOI (always points to the latest version)"
 date-released: 2026-05-23
 abstract: >
