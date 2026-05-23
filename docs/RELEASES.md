@@ -47,7 +47,7 @@ GitHub limits and the right place to host each artefact:
    - **License:** MIT
    - **Version:** 2.1.1
    - **Related identifiers:** Link to GitHub repo URL (relation: "is supplement to").
-6. **Publish.** You receive a DOI like `10.5281/zenodo.20356274`.
+6. **Publish.** You receive a DOI like `10.5281/zenodo.20357890`.
 
 #### Option B — GitHub ↔ Zenodo automatic linking
 
@@ -66,7 +66,7 @@ After Zenodo DOI is minted:
 >
 > The Central Water Commission of India has the discharge data which supports the findings of this research. The availability of the data is subject to restrictions. With the consent of the Headquarter of the CWC located in New Delhi, the data is accessible to the authors. Other data used in this research are freely accessible in the public domain.
 >
-> The source code of the ARISE Medium-Term Flood Forecast sub-system (v2.1.1), along with installation guides, module-level documentation, and deployment scripts, is openly available on GitHub at https://github.com/sagarbd33/ARISE-Medium-Term-Flood-Forecast and archived on Zenodo at https://doi.org/10.5281/zenodo.20356274. The pre-built Windows installer `ARISE - Medium Term Flood Forecast Installer.exe` (≈ 2 GB) is hosted on the same Zenodo record.
+> The source code of the ARISE Medium-Term Flood Forecast sub-system (v2.1.1), along with installation guides, module-level documentation, and deployment scripts, is openly available on GitHub at https://github.com/sagarbd33/ARISE-Medium-Term-Flood-Forecast and archived on Zenodo at https://doi.org/10.5281/zenodo.20357890. The pre-built Windows installer `ARISE - Medium Term Flood Forecast Installer.exe` (≈ 2 GB) is hosted on the same Zenodo record.
 
 ---
 
