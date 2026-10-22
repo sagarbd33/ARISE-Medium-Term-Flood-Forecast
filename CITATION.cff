@@ -5,10 +5,10 @@ version: "2.1.1"
 doi: 10.5281/zenodo.20357890
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.20357890
+    value: 10.5281/zenodo.23567476
     description: "Version-specific DOI for v2.1.1"
   - type: doi
-    value: 10.5281/zenodo.20357890
+    value: 10.5281/zenodo.23567476
     description: "Concept DOI (always points to the latest version)"
 date-released: 2026-05-23
 abstract: >
