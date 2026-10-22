@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](#)
 [![Version](https://img.shields.io/badge/version-2.1.1-green.svg)](#)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20357890.svg)](https://doi.org/10.5281/zenodo.20357890)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23567476.svg)](https://doi.org/10.5281/zenodo.23567476)
 [![Status](https://img.shields.io/badge/status-operational-brightgreen.svg)](#)
 
 ---
