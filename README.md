@@ -23,11 +23,9 @@ ARISE comprises two sub-systems sharing a unified five-tier danger-level classif
 
 This repository hosts the source code, installer build files, and supporting documentation for the **NWP-Driven Medium-Term Sub-System**, packaged as the desktop application *ARISE - Medium Term Flood Forecast (v2.1.1)*.
 
-The associated manuscript is currently under review at the *Journal of Hydrology*:
+The associated article is published in the *Journal of Hydrology*:
 
-> Debbarma, S., Mandal, S., Bandyopadhyay, A., & Bhadra, A. (under review).
-> *ARISE: A Novel Automated Hybrid System for Multi-Timescale Flood Forecasting
-> and Operational Early Warning in Northeast India.* **Journal of Hydrology.**
+> Debbarma, S., Mandal, S., Bandyopadhyay, A., & Bhadra, A. (2027). ARISE: A novel automated hybrid system for multi-timescale flood forecasting and operational early warning in northeast India. *Journal of Hydrology*, 682, 136755. https://doi.org/10.1016/j.jhydrol.2026.136755
 
 ---
 
