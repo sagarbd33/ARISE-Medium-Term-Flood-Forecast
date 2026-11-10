@@ -56,7 +56,7 @@ keywords:
   - National Hydrology Project
 preferred-citation:
   type: article
-  title: "ARISE: A Novel Automated Hybrid System for Multi-Timescale Flood Forecasting and Operational Early Warning in Northeast India"
+  title: "ARISE: A novel automated hybrid system for multi-timescale flood forecasting and operational early warning in northeast India"
   authors:
     - family-names: Debbarma
       given-names: Sagar
@@ -67,5 +67,8 @@ preferred-citation:
     - family-names: Bhadra
       given-names: Aditi
   journal: "Journal of Hydrology"
-  year: 2026
-  notes: "Manuscript currently under review. Volume, issue, pages, and DOI will be added upon acceptance."
+  volume: 682
+  start: 136755
+  year: 2027
+  doi: 10.1016/j.jhydrol.2026.136755
+  url: "https://doi.org/10.1016/j.jhydrol.2026.136755"
