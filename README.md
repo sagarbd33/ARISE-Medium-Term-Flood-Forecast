@@ -217,18 +217,19 @@ Trained models and HEC-HMS project files are bundled in the pre-built Windows in
 If you use this code or the methodology, please cite:
 
 ```bibtex
-@article{debbarma2026arise,
-  title   = {ARISE: A Novel Automated Hybrid System for Multi-Timescale Flood
-             Forecasting and Operational Early Warning in Northeast India},
+@article{debbarma2027arise,
+  title   = {ARISE: A novel automated hybrid system for multi-timescale flood forecasting and operational early warning in northeast India},
   author  = {Debbarma, Sagar and Mandal, Sameer and Bandyopadhyay, Arnab and Bhadra, Aditi},
   journal = {Journal of Hydrology},
-  year    = {2026},
-  note    = {Under review}
+  volume  = {682},
+  pages   = {136755},
+  year    = {2027},
+  doi     = {10.1016/j.jhydrol.2026.136755}
 }
 
 @software{arise_repo_2026,
   author       = {Debbarma, Sagar and Mandal, Sameer and Bandyopadhyay, Arnab and Bhadra, Aditi},
-  title        = {ARISE Medium-Term Flood Forecast Sub-System (v2.1.0)},
+  title        = {ARISE Medium-Term Flood Forecast Sub-System (v2.1.1)},
   year         = {2026},
   url          = {https://github.com/sagarbd33/ARISE-Medium-Term-Flood-Forecast},
   doi          = {10.5281/zenodo.23567476},
